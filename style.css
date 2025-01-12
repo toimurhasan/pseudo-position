@@ -21,3 +21,40 @@ li:nth-child(2n) {
 li:nth-child(2n + 1) {
   color: rgb(182, 118, 0);
 }
+/* ============ POSITION ============= */
+.swim-container {
+  position: relative;
+  border: 1px solid black;
+}
+.box {
+  border: 1px solid black;
+  width: 200px;
+}
+/* relative does not give up the original position */
+/* .box:nth-child(2) {
+  position: relative;
+  left: 20px;
+  top: -30px;
+} */
+
+/* absolute gives up the original position */
+/* absolute moves based on the "root element" or "parent element" */
+/* .box:nth-child(2) {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+} */
+
+/* .box:nth-child(2) {
+  position: sticky;
+  top: 0;
+} */
+
+.box:nth-child(2) {
+  position: fixed;
+}
+.dummy {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
