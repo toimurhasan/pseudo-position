@@ -1,0 +1,23 @@
+/* =========== PSEUDO CLASS ============ */
+/* hover */
+h3 {
+  color: peru;
+}
+h3:hover {
+  color: tomato;
+}
+/* focus */
+input:focus {
+  color: blue;
+}
+/* visited */
+a:visited {
+  color: tomato;
+}
+/* nth child */
+li:nth-child(2n) {
+  color: rgb(180, 27, 0);
+}
+li:nth-child(2n + 1) {
+  color: rgb(182, 118, 0);
+}
