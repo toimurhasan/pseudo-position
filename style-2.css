@@ -1,0 +1,10 @@
+.box {
+  position: relative;
+}
+.boy {
+  top: 70px;
+  z-index: 1;
+}
+.water {
+  top: -110px;
+}
